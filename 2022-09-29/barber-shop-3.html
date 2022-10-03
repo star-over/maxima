@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>barber shop3</title>
+</head>
+<body style="font-family: sans-serif; background: #f0f0f3; padding: 1rem; color: #303033">
+<form class="barber_form" method="POST" name="zayavka" action="/zayavka.php">
+    <p style="font-size: xx-large; font-weight: bold">Записаться онлайн</p>
+
+    <div style="font-size: large; margin-top: 2rem; margin-bottom: 0.2rem; color: #707077"
+    >Тип стрижки:</div
+    >
+    <select
+            style="
+          height: 3rem;
+          width: 30rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          font-size: x-large;
+          border-radius: 10px;
+          border-color: #303033;
+          background-color: #e0e0e3;
+          box-sizing: border-box;
+        "
+    >
+        <option>Стрижка</option>
+        <option>Стрижка бороды</option>
+        <option selected="selected">Стрижка + Борода</option>
+    </select>
+
+    <div style="font-size: large; margin-top: 2rem; margin-bottom: 0.2rem; color: #707077"
+    >Уровень специалиста:</div
+    >
+    <label><input type="radio" name="master" value="1" />Стажер</label>
+    <label><input type="radio" name="master" value="2" checked="checked" />Барбер</label>
+    <label><input type="radio" name="master" value="3" />VIP Барбер</label>
+
+    <div style="font-size: large; margin-top: 2rem; margin-bottom: 0.2rem; color: #707077"
+    >Дополнительные услуги:</div
+    >
+    <label><input type="checkbox" name="massage" /> Массаж головы</label>
+    <label><input type="checkbox" name="razor" /> Опасная бритва</label>
+
+    <div style="font-size: large; margin-top: 2rem; margin-bottom: 0.2rem; color: #707077"
+    >Дата и время записи:</div
+    >
+    <input
+            type="datetime-local"
+            style="
+          height: 3rem;
+          width: 30rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          font-size: x-large;
+          border-radius: 10px;
+          border-color: #303033;
+          background-color: #e0e0e3;
+          box-sizing: border-box;
+        "
+    />
+
+    <fieldset style="margin-top: 2rem; width: 30rem; border-radius: 20px; box-sizing: border-box">
+        <legend style="margin-top: none; font-size: large; color: #707077"
+        >Контактная информация</legend
+        >
+        <div style="font-size: large; margin-top: 0.8rem; margin-bottom: 0.2rem; color: #707077"
+        >Ваше имя:</div
+        >
+        <input
+                type="text"
+                name="name"
+                style="
+            height: 3rem;
+            width: 27rem;
+            font-size: x-large;
+            border-color: #303033;
+            border-radius: 10px;
+            padding-left: 1rem;
+          "
+                placeholder="введите ваше имя"
+        />
+
+        <div style="font-size: large; margin-top: 0.8rem; margin-bottom: 0.2rem; color: #707077"
+        >Ваш телефон:</div
+        >
+        <input
+                type="tel"
+                name="phone"
+                style="
+            height: 3rem;
+            width: 27rem;
+            font-size: x-large;
+            border-color: #303033;
+            border-radius: 10px;
+            padding-left: 1rem;
+          "
+                placeholder="например, +7 800 123-45-67"
+        />
+    </fieldset>
+
+    <input
+            type="submit"
+            name="zayavka_submit"
+            style="
+          margin-top: 1rem;
+          margin-bottom: 20rem;
+          width: 30rem;
+          height: 4rem;
+          background-color: black;
+          border-radius: 100px;
+          box-sizing: border-box;
+          font-size: xx-large;
+          font-weight: bold;
+          color: #f0f0f3;
+        "
+            value="Записаться"
+    />
+</form>
+</body>
+</html>

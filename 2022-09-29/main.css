@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background: #f0f0f3;
+    padding: 1rem;
+    color: #303033;
+}
+.caption {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.infofield {
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: .2rem;
+    color: #707077;
+}
+
+select, input[name="date_time"] {
+    height: 3rem;
+    width: 30rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: #303033;
+    background-color: #e0e0e3;
+    box-sizing: border-box;
+
+}
+
+fieldset {
+    margin-top: 2rem;
+    width: 30rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+fieldset>legend {
+    margin-top: none;
+    font-size: large;
+    color: #707077;
+
+}
+fieldset>div {
+    margin-top: .8rem !important;
+}
+
+fieldset>input {
+    height: 3rem;
+    width: 27rem;
+    font-size: x-large;
+    border-color: #303033;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+input[name="zayavka_submit"] {
+    margin-top: 1rem;
+    margin-bottom: 20rem;
+    width: 30rem;
+    height: 4rem;
+    background-color: black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #f0f0f3;
+}
