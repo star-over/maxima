@@ -1,0 +1,13 @@
+body {
+    margin: 100px;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+div {
+    width: 400px;
+    height: 250px;
+    background-color: #158cba;
+    box-shadow: 10px 10px 69px rgba(156, 61, 61, 0.75)
+}
