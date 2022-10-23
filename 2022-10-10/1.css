@@ -1,53 +1,61 @@
-:root{
-    --root-font-size: 16px;
-    --background-color: #fff;
-    --color: #000;
-    --red: indianred;
-    --blue: cornflowerblue;
+:root {
+  --root-font-size: 16px;
+  --background-color: #fff;
+  --color: #000;
+  --red: indianred;
+  --blue: cornflowerblue;
+  font-size: var(--root-font-size);
+}
 
-    font-size: var(--root-font-size);
-}
 body {
-    margin: 20px;
-    font-family: sans-serif;
-    text-align: left;
-    box-sizing: border-box;
-    background-color: var(--background-color);
+  margin: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: var(--background-color);
 }
+
 .section {
-    display: inline-block;
-    border: solid 2px var(--color);
-    padding: 20px;
-    margin: 5px;
+  display: inline-block;
+  border: solid 2px var(--color);
+  padding: 20px;
+  margin: 5px;
 }
+
 .column {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
+
 span {
-    font-size: large;
-    position: sticky;
-    top: 0;
+  font-size: large;
+  position: sticky;
+  top: 0;
 }
-.sticky-text{
-    margin: 0 20px;
-    font-size: large;
-    position: sticky;
-    top: 0;
+
+.sticky-text {
+  margin: 0 20px;
+  font-size: large;
+  position: sticky;
+  top: 0;
 }
+
 .empty {
-    height: 300px;
+  height: 300px;
 }
+
 .rect {
-    margin: 3px 0px;
-    height: 100px;
-    width: 200px;
+  margin: 3px 0px;
+  height: 100px;
+  width: 200px;
 }
+
 .red {
-    background-color: var(--red);
+  background-color: var(--red);
 }
+
 .blue {
-    background-color: var(--blue);
-    position: sticky;
-    bottom: 0;
+  background-color: var(--blue);
+  position: sticky;
+  bottom: 0;
 }
