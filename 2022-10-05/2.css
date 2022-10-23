@@ -1,0 +1,14 @@
+body {
+    margin: 20px;
+    color: #212529;
+    text-align: left;
+    background-color: #eee;
+}
+
+div {
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    border-top: 10px double #50bbff;
+    border-bottom: 10px dotted #de50ff;
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 20px;
+    color: #212529;
+    text-align: left;
+    background-color: #eee;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #104357;
+    border-radius: 80px;
+    border: solid 40px #ff6550;
+    border-bottom-color: #ab4335;
+    border-right-color: #ab4335;
+}

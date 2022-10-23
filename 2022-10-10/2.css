@@ -1,0 +1,28 @@
+:root{
+    --root-font-size: 18px;
+    --background-color: #fff;
+
+    font-size: var(--root-font-size);
+}
+body {
+    margin: 40px;
+    font-family: sans-serif;
+    background-color: var(--background-color);
+}
+div {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+.image {
+    z-index: -1;
+    background-image:url('imag.png');
+}
+.text {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: var(--background-color);
+    background-color: rgba(125, 21, 203, 0.6);
+}
+
